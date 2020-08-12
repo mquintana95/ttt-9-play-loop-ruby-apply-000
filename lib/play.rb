@@ -34,5 +34,16 @@ def turn(board)
     turn(board)
   end
 end
-
+#def play(board)
+  #selection = 0
+  #until selection == 8
+    #turn(board)
+    #selection += 1
+  #end
+#end
 # Define your play method below
+def play(board)
+  9.times do
+    turn(board)
+  end
+end
